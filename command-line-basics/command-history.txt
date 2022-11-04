@@ -1,0 +1,222 @@
+    1  git branch javascript-custom-methods
+    2  git branch --list
+    3  git switch javascript-custom-methods 
+    4  git status
+    5  git add javascript-custom-methods/
+    6  git status
+    7  git commit -m "Completed JS Custom Methods"
+    8  git status
+    9  git push origin javascript-custom-methods 
+   10  git status
+   11  git switch main
+   12  git status
+   13  git status
+   14  git pull origin main
+   15  git status
+   16  git branch javascript-this
+   17  git switch javascript-this
+   18  git status
+   19  git status
+   20  git add javascript-this/
+   21  git status
+   22  git commit -m "Completed JS This"
+   23  git status
+   24  git push origin javascript-this 
+   25  git status
+   26  git switch main
+   27  git status
+   28  git branch javascript-prototypes
+   29  git switch javascript-prototypes 
+   30  git status
+   31  git switch main
+   32  git pull origin main
+   33  git status
+   34  git switch javascript-prototypes 
+   35  git status
+   36  git status
+   37  git status
+   38  git add javascript-prototypes/
+   39  git status
+   40  git commit -m "Completed JS Prototypes"
+   41  git push origin javascript-prototypes 
+   42  git status
+   43  git switch main
+   44  git pull origin main
+   45  git status
+   46  git branch javascript-constructors
+   47  git switch javascript-constructors
+   48  git status
+   49  git status
+   50  git add javascript-constructors/
+   51  git status
+   52  git commit -m "Completed JS Constructors"
+   53  git push origin javascript-constructors 
+   54  git status
+   55  git switch main
+   56  git status
+   57  git pull origin main
+   58  git status
+   59  git branch javascript-bank
+   60  git switch javascript-bank 
+   61  git status
+   62  git status
+   63  git add javascript-bank/
+   64  git status
+   65  git commit -m "Completed JS Bank"
+   66  git bstatus
+   67  git push origin javascript-bank 
+   68  git status
+   69  git switch main
+   70  git pull origin main
+   71  git status
+   72  git branch javascript-carousel
+   73  git switch javascript-carousel 
+   74  git statusd
+   75  git status
+   76  git status
+   77  git add javascript-carousel/
+   78  git status
+   79  git commit -m "Completed JS Carousel"
+   80  git status
+   81  git push origin javascript-carousel 
+   82  git status
+   83  git switch main
+   84  git status
+   85  git switch javascript-carousel 
+   86  git status
+   87  git switch main
+   88  git status
+   89  git branch http-messages
+   90  git switch http-messages
+   91  git status
+   92  http https://example.com
+   93  http --verbose http https://example.com
+   94  http --body GET https://jsonplaceholder.typicode.com/users > http-messages/users.json
+   95  http --body GET https://example.com > http-messages/index.html
+   96  git status
+   97  git add http-messages/
+   98  git status
+   99  git commit -m "Completed http-messages"
+  100  git status
+  101  git push origin http-messages 
+  102  git status
+  103  git switch main
+  104  git status
+  105  git status
+  106  git branch javascript-ajax
+  107  git switch javascript-ajax 
+  108  git status
+  109  git status
+  110  git status
+  111  git add javascript-ajax/
+  112  git status
+  113  git commit -m "JS AJAX"
+  114  git push origin javascript-ajax 
+  115  git status
+  116  git checkout -- javascript-ajax/users.js
+  117  git checkout -- javascript-ajax/users.js
+  118  git status
+  119  git commit -m "Test"
+  120  git switch main
+  121  git checkout -- javascript-ajax/users.js
+  122  git status
+  123  git add API\ Test/api-football.css 
+  124  git status
+  125  git commit -m "Test"
+  126  git status
+  127  git reset --hard
+  128  git status
+  129  git switch main
+  130  git status
+  131  git branch es6-const-let
+  132  git switch es6-const-let 
+  133  git status
+  134  git status
+  135  git add es6-const-let/
+  136  git statuis
+  137  git status
+  138  git commit -m "Completed let"
+  139  git status
+  140  git push origin es6-const-let 
+  141  git status
+  142  git switch main
+  143  git branch es6-template-literals
+  144  git switch es6-template-literals 
+  145  git status
+  146  git status
+  147  git add es6-template-literals/
+  148  git status
+  149  git commit -m "Completed literals"
+  150  git status
+  151  git push origin es6-template-literals 
+  152  git status
+  153  git status
+  154  git status
+  155  git switch main
+  156  git status
+  157  git pull origin main
+  158  git status
+  159  git status
+  160  git branch es6-destructuring
+  161  git switch es6-destructuring 
+  162  git status
+  163  git status
+  164  git add es6-destructuring/
+  165  git status
+  166  git commit -m "Completed destructuring"
+  167  git statuys
+  168  git status
+  169  git push origin es6-destructuring 
+  170  git status
+  171  git switch main
+  172  git status
+  173  git pull origin maijn
+  174  git pull origin main
+  175  git status
+  176  git status
+  177  git branch es6-arrow-functions
+  178  git switch es6-arrow-functions 
+  179  git status
+  180  git status
+  181  git status
+  182  git add es6-arr
+  183  git add es6-arrow-functions/
+  184  git status
+  185  git commit -m "Completed arrow functions"
+  186  git status
+  187  git push origin es6-arrow-functions
+  188  git status
+  189  git status
+  190  git switch main
+  191  git pull origin main
+  192  git status
+  193  git branch command-line-basics
+  194  git switch command-line-basics 
+  195  git status
+  196  git status
+  197  cd command-line-basics/
+  198  git status
+  199  ls
+  200  man mkdir
+  201  mkdir parent
+  202  ls
+  203  mkdir -p parent/child/grandchild
+  204  ls -a
+  205  man mv
+  206  man mv
+  207  mv pokiemans pokemon
+  208  ls
+  209  man rm
+  210  rm lol.txt
+  211  ls
+  212  rm -r kill-me/
+  213  ls
+  214  man cp
+  215  man cp
+  216  cp and-then.txt no-and-then.txt
+  217  ls
+  218  cat
+  219  cat and-then.txt no-and-then.txt 
+  220  man history
+  221  history
+  222  history > command-history.txt
